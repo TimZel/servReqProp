@@ -9,23 +9,6 @@ import java.util.regex.Pattern;
 
 
 public class servImage {
-//    static String getContentType(String exe) throws FileNotFoundException {
-//        Pattern patternExeContentType = Pattern.compile(exe + "(.+)");
-//        String fileName = "/home/zelyanin/IdeaProjects/servReq2.0/src/main/java/testerFiletable";
-//        String exeParse = null;
-//        try (var buff = new BufferedReader(new InputStreamReader(new FileInputStream(fileName)))) {
-//            while (buff.ready()) {
-//                String str = buff.readLine();
-//                Matcher matcherExeContentType = patternExeContentType.matcher(str);
-//                if (matcherExeContentType.find()) {
-//                    exeParse = matcherExeContentType.group(1);
-//                }
-//            }
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//        return exeParse;
-//    }
 
     public static final  String notFound = "HTTP/1.0 404 Not Found\r\nContent-Type: text/html\r\n\r\n";
     public static final String badRequest = "HTTP/1.0 400 Bad Request\r\nContent-Type: text/html\r\n\r\n";
